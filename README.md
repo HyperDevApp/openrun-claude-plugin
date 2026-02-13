@@ -14,6 +14,23 @@ Deploy web applications using [OpenRun](https://openrun.dev)'s declarative confi
 - **Template-Based**: Includes battle-tested Starlark templates
 - **No MCP Required**: Uses Claude Code's built-in Bash tool for simplicity
 - **Multi-Environment Support**: Deploy to dev, staging, and production with parameters
+- **Production Examples**: 5 complete example applications ready to deploy
+
+## 📚 Example Applications
+
+This repository includes **5 production-ready example applications** you can deploy immediately:
+
+| Example | Description | Tech Stack |
+|---------|-------------|------------|
+| [🎨 Streamlit Dashboard](./examples/streamlit-dashboard) | Interactive data visualization | Python, Pandas, NumPy |
+| [⚡ FastAPI Service](./examples/fastapi-service) | Modern REST API with auto-docs | Python, FastAPI, Uvicorn |
+| [⚛️ Next.js Web App](./examples/nextjs-webapp) | Full-stack React application | TypeScript, Next.js, Tailwind |
+| [🟢 Express API](./examples/express-api) | Simple Node.js REST API | JavaScript, Express |
+| [📄 Static Site](./examples/static-site) | Pure HTML/CSS/JS website | HTML5, CSS3, JavaScript |
+
+**[View all examples →](./examples/)**
+
+Each example includes complete source code, deployment configuration, and detailed documentation. Perfect for learning or as starting points for your projects!
 
 ## 📋 Prerequisites
 
