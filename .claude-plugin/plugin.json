@@ -1,0 +1,27 @@
+{
+  "name": "openrun-plugin",
+  "version": "1.0.0",
+  "description": "Claude Code skill for OpenRun declarative deployment. Uses native Bash commands to interact with OpenRun CLI without requiring MCP servers.",
+  "author": {
+    "name": "Hyperdev",
+    "email": "opensource@hyperdev.app",
+    "url": "https://github.com/hyperdevapp"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperdevapp/openrun-claude-plugin"
+  },
+  "keywords": [
+    "deployment",
+    "openrun",
+    "gitops",
+    "starlark",
+    "infrastructure",
+    "devops",
+    "paas",
+    "containerization",
+    "claude-code",
+    "claude-plugin"
+  ]
+}
