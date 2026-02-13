@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Site Example - OpenRun</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Static Site Example</h1>
+            <p class="subtitle">Deployed with <strong>OpenRun</strong></p>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>About This Example</h2>
+                <p>
+                    This is a simple static website deployed using OpenRun.
+                    Perfect for documentation, landing pages, and portfolios.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>✨ Features</h2>
+                <ul>
+                    <li>Zero runtime dependencies</li>
+                    <li>Lightning-fast loading</li>
+                    <li>Easy to deploy and maintain</li>
+                    <li>SEO friendly</li>
+                    <li>Works everywhere</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>📦 Deployment</h2>
+                <div class="code-block">
+                    <code>openrun apply --approve deploy.star</code>
+                </div>
+                <p>Or use the Claude Code plugin to deploy with natural language!</p>
+            </section>
+
+            <section class="card">
+                <h2>🎯 Use Cases</h2>
+                <div class="grid">
+                    <div class="grid-item">
+                        <h3>📚 Documentation</h3>
+                        <p>API docs, user guides, wikis</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>🎨 Portfolios</h3>
+                        <p>Showcase your work and projects</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>🏠 Landing Pages</h3>
+                        <p>Product launches, campaigns</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>📊 Dashboards</h3>
+                        <p>Status pages, metrics displays</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card demo">
+                <h2>🎪 Interactive Demo</h2>
+                <p>Click the button below to see some JavaScript in action!</p>
+                <button id="demoButton" onclick="handleClick()">Click Me!</button>
+                <p id="clickCount" class="click-count">Clicks: 0</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                Built with HTML, CSS, and JavaScript •
+                Deployed with <a href="https://openrun.dev" target="_blank">OpenRun</a> •
+                Plugin: <a href="https://github.com/HyperDevApp/openrun-claude-plugin" target="_blank">openrun-claude-plugin</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
